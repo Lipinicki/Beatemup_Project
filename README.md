@@ -1,8 +1,10 @@
 # Beatemup_Project
 
-## -----GUIDELINES-----
+## - GUIDELINES
 
 ### \[**IMPORTANTE**\]
+
+Ao clonar este repositório, siga atentamente as instruções:
 
 1. Todos que utilizarem a engine deverão instalar o Visual Studio Community 2022 e iniciar a Unreal a partir da solução do visual studio;
 
@@ -24,10 +26,10 @@ Essas orientações devem ser seguidas a risca para que os dados do projetos nã
 
 A pasta de Developers, localizada no Content Browser na pasta 'Contents' (Caso não consiga ver a pastar, selecione a opção "Settings" no content browser e habilite "Show Developers Content") deve ser usada para testes de novas features, conteúdos, mecânicas ou qualquer outro tipo mudança que talvez não seja definitiva para o projeto. Cada membro do projeto terá uma pasta própria criada a partir do nome do computador do usuário.
 
-> #### ATENÇÃO:
-> - Apagar ou renomear sua pasta não será possível pois toda vez que abrir a pasta 'Developers' novamente, acarretara na criação de uma nova pasta com o nome do computador do usuário. (POR MOTIVOS DE ORGANIZAÇÃO, NÃO APAGUE SUA PASTA NEM A DE OUTROS MEMBROS DO GRUPO). 
+> ##### ATENÇÃO:
+> Apagar ou renomear sua pasta não é recomendado pois ao fechar e abrir a pasta 'Developers' novamente será criado uma nova pasta com o nome do computador do usuário. POR MOTIVOS DE ORGANIZAÇÃO NÃO APAGUE SUA PASTA NEM A DE OUTROS MEMBROS DO GRUPO. 
 
-Caso seja necessário trabalhar em algum asset que foi criado ou modificado por outra pessoa do projeto, duplique o asset/blueprint em questão para a pasta de Developers e faça as alterações desejadas no NOVO asset criado. Os assets criados nessa pasta não serão inclusos na build final.
+Caso seja necessário trabalhar em algum asset que foi criado ou modificado por outra pessoa do projeto, duplique o asset/blueprint em questão para a pasta de Developers e faça as alterações desejadas no NOVO asset criado. **Os assets criados nessa pasta não serão inclusos na build final**.
 
 Essa organização ajudará no controle do versionamento do projeto e é essencial para mantermos os trabalhos separados ao longo do desenvolvimento.
 

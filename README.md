@@ -8,9 +8,9 @@ Ao clonar este repositório, siga atentamente as instruções:
 
 1. Todos que utilizarem a engine deverão instalar o Visual Studio Community 2022 e iniciar a Unreal a partir da solução do visual studio;
 
-2. Caso não tenha instalado, faça o download do [Visual Studio Installer](https://visualstudio.microsoft.com/pt-br/downloads/) então abra e deixe aberto o arquivo baixado;
+2. Caso não o tenha instalado, faça o download do [Visual Studio Installer](https://visualstudio.microsoft.com/pt-br/downloads/) então execute o Installer e deixe o o programa aberto por enquanto;
 
-3. Acesse o [Guia de Setup Do Visual Studio na Unreal Engine](https://docs.unrealengine.com/5.1/en-US/setting-up-visual-studio-development-environment-for-cplusplus-projects-in-unreal-engine/#:~:text=the%20code%20base.-,New%20Visual%20Studio%20Installation,Unreal%20Engine%20installer,-Recommended%20Settings) e selecionem os módulos descritos no guia. Cliquem em 'Install';
+3. Acesse o [Guia de Setup Do Visual Studio na Unreal Engine](https://docs.unrealengine.com/5.1/en-US/setting-up-visual-studio-development-environment-for-cplusplus-projects-in-unreal-engine/#:~:text=the%20code%20base.-,New%20Visual%20Studio%20Installation,Unreal%20Engine%20installer,-Recommended%20Settings) e selecione os módulos descritos no guia. Clique em 'Install';
 
 4. Para buildar, também é preciso fazer o download do [Runtime SDK do .NET Core](https://dotnet.microsoft.com/pt-br/download/dotnet/thank-you/runtime-3.1.32-windows-x64-installer) da Microsoft e instalar no computador;
 
@@ -21,19 +21,24 @@ Ao clonar este repositório, siga atentamente as instruções:
 7. Ao final, tente uma das seguintes opções:
 
     - Abra a pasta do projeto -> Clique com o botão direito no arquivo ***.uproject*** -> Selecione a opção "Generate Visual Studio project files \(para usúarios de Windows 10 é preciso clicar em 'Mostrar mais opções' ou 'Show More Options'\);
+
+    ou então
+
     - Abra a pasta do projeto -> Clique duas vezes no arquivo .uproject -> Na mensagem "Missing \**Project_Name*\* Modules" selecione 'Sim', o editor irá abrir -> Com o editor aberto, selecione *Tools > Generate Visual Studio Project* \(ou *Refresh Visual Studio 2022 Project*\) > Feche o Editor quando o processo for concluído;
 
    Caso surja algum erro ao tentar buildar o projeto, confira se os passos anteriores foram seguidos corretamente e tente novamente;
 
 8. Com a solução gerada, feche o editor, vá até a pasta do projeto e clique duas vezes no arquivo ***.sln*** e selecione "Abrir com Visual Studio 2022" \(pelo editor, abra a solução através de *Tools > Open Visual Studio 2022*, e feche o editor em seguida\);
 
-9. Com a solução do Visual Studio aberta, na segunda barra de opções superior da tela, no local onde está selecionado "Development Editor" selecione "DebugGame Editor" e depois execute a opção 'Start Without Debugging (Ctrl+F5)' <mark>***Triangulo verde sem preenchimento***</mark>. O Editor da Unreal irá iniciar automáticamente;
+9. Com a solução do Visual Studio aberta, na segunda barra de opções superior da tela, no local onde está selecionado **"Development Editor"** selecione **"DebugGame Editor"** e depois execute a opção 'Start Without Debugging (Ctrl+F5)' <mark>***Triangulo verde sem preenchimento***</mark>. O Editor da Unreal irá iniciar automáticamente;
 
 10. Ao iniciar o editor, certifique-se que as opções 'Force Compilation at Startup' (*Edit > Editor Preferences > General > Loading and Saving*) e 'Enable Live Coding' (*Edit > Editor Preferences > General > Live Coding*) estão ativadas;
 
 11. Desabilitem as opções 'Enable Reinstancing' e 'Automatically Compile Newly Added C++ Classes' em *Edit > Editor Preferences > General > Live Coding*. Também desabilite a opção 'Automatically Compile Newly Added C++ Classes' na sessão *Edit > Editor Preferences > General > Miscellaneous > Hot Reload*.
 
-12. **AO TROCAR DE BRANCH OU REALIZAR UM MERGE, SEMPRE SALVEM E FECHEM O EDITOR** ou seus assets poderão ser corrompidos. Após realizerem a troca/merge, iniciem a engine através do Visual Studio;
+12. **AO TROCAR DE BRANCH OU REALIZAR UM MERGE, SEMPRE SALVEM E FECHEM O EDITOR** 
+
+    ou seus assets poderão ser corrompidos. Após realizerem a troca/merge, iniciem a engine através do Visual Studio;
 
 Essas orientações devem ser seguidas a risca para que os dados do projetos não sejam corrompidos e assim evitar maiores problemas no futuro com corrompimentos de assets e trabalhos perdidos. Caso tenham problemas seguindo as instruções, entrem em contato o quanto antes.
 
